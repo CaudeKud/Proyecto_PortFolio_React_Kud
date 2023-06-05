@@ -1,7 +1,7 @@
-import Header from '../components/Header'
+// import Header from '../components/Header'
 import Main from '../components/Main'
 import Footer from '../components/Footer'
-import MainContact from '../components/MainContact'
+import MainAbout  from '../components/MainAbout'
 
 
 
@@ -16,10 +16,10 @@ const Home = () => {
   };
   return (
     <div>
-      <Header />
-      <Main alumno={alumno} />
+      {/* <Header /> */}
+      {/* <Main alumno={alumno} /> */}
       <br />
-      <MainContact />
+      <MainAbout />
       <br />
       <Footer />
     </div>

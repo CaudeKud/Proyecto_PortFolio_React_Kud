@@ -1,0 +1,15 @@
+.img
+  {
+    style:"float:left";
+    padding-right: 10px;
+    width:"240";
+    height:"240"; 
+    border-radius: 20px;
+    
+  }
+
+.parrafo
+{
+    border: black 3px solid;
+    overflow: auto;
+}

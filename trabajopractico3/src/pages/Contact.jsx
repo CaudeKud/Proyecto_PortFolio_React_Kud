@@ -1,13 +1,13 @@
-
-import Header from '../components/Header'
+import react from react
+import Home from '../components/Home'
 import Footer from '../components/Footer'
 import MainContact from '../components/MainContact'
 
 const Contact = () => {
     return (
       <div>
-          <Header/>
-          <MainContact/>
+          <Home/>
+          <MainaAbout/>
          
           <Footer/>
       </div>
