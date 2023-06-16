@@ -1,12 +1,12 @@
-import react from react
-import Home from '../components/Home'
+import React from 'react'
+import Header from '../components/Header'
 import Footer from '../components/Footer'
 import MainAbout from '../components/MainAbout'
 
 const About = () => {
     return (
       <div>
-          <Home/>
+        <Header/>
           <MainAbout/>
          
           <Footer/>
@@ -14,4 +14,4 @@ const About = () => {
     )
   }
   
-  export default About
+  export default About;

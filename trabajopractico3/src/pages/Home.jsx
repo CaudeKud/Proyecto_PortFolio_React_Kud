@@ -1,10 +1,6 @@
-// import Header from '../components/Header'
-import Main from '../components/Main'
+import Header from '../components/Header'
 import Footer from '../components/Footer'
-import MainAbout  from '../components/MainAbout'
-
-
-
+import Main from '../components/Main'
 
 const Home = () => {
   const alumno = {
@@ -16,12 +12,10 @@ const Home = () => {
   };
   return (
     <div>
-      {/* <Header /> */}
-      {/* <Main alumno={alumno} /> */}
-      <br />
-      <MainAbout />
-      <br />
-      <Footer />
+      <Header/>
+          <Main alumno={alumno}/>
+         
+          <Footer/>
     </div>
   );
 };

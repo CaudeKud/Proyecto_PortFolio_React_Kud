@@ -1,9 +1,19 @@
-.img
-  {
-    style:"float:left";
+.aboutContainer
+{
+  display : flex ;
+}
+
+.aboutContainerChildren1{
+  flex-grow:3;
+}
+.aboutContainerChildren2{
+  flex-grow:1;
+}
+
+.img{
     padding-right: 10px;
-    width:"240";
-    height:"240"; 
+    width:350px;
+    height:440px; 
     border-radius: 20px;
     
   }
